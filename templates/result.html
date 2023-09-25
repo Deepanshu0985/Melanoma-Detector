@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Prediction Result</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Melanoma Classifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <style>
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            font-family: 'Work Sans', sans-serif,
+        }
+        /* .hero {
+            background: black url(static/blue_background.jpg) center / cover;
+        } */
+    </style>
+</head>
+<body>
+    <section  class="hero is-fullheight">
+
+   
+        <section class="section ">
+            <div class="container" >
+                <center><h1 class="title" style="font-size:2.5rem; color:white;" >
+                    Melanoma Classifier
+                </h1>
+                <strong><p class="subsubtitle" style="color:white;">
+                    by Deepanshu yadav
+                </p></strong>
+                </center>
+            </div>   
+            </section>
+            <div class="column is-one-half has-text-centered" style="font-size:2.5rem" >
+        
+                <h2 id ="pred" style="color:black">
+                    <span style="font-weight: bold; color:whitesmoke;">{{ prediction }}</span>
+                </h2>
+            </div>
+            <a href="/" class="button is-black is-inverted" style="font-size:1.5rem">Back to Home</a>
+    </section>
+    <!-- <h1>Prediction Result:</h1>
+    <p>{{ prediction }}</p> -->
+ </body>
+</html>
+
+
